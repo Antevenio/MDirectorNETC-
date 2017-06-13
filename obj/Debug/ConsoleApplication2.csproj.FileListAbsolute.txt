@@ -1,0 +1,14 @@
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\DevDefined.OAuth.dll
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\OAuth.dll
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\OAuth.Net.Common.dll
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\OAuth.Net.Components.dll
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\OAuth.net.dll
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\Json.NET.Web.dll
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\Newtonsoft.Json.dll
+c:\users\sgayarre\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\Newtonsoft.Json.xml
