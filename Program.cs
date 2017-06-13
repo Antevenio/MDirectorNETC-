@@ -14,13 +14,11 @@ namespace ConsoleApplication2
         {
             
             //get request
-
-            string email = "soa@gmail.com";
+            string email = "<email to find by get>"; //place here the mail from mdirector subscriber's list to be found
             string url = "http://www.mdirector.com/api_contact?email="+email;
-            string consumerKey = "52216";
-            string secretKey = "Qdl0AVLxIk";
+            string consumerKey = "xxxxxxx"; //consumer key , place here key
+            string secretKey = "xxxxxxx"; //consumer secret, place here secret key
             string contentType = "application/x-www-form-urlencoded";
-
 
             ServiceProvider ServiceProvider = new ServiceProvider(url, consumerKey, secretKey, "PLAINTEXT");
             string resultGet = ServiceProvider.GetData(contentType);
@@ -38,25 +36,16 @@ namespace ConsoleApplication2
                 Console.Out.WriteLine(resultGet);
                 Console.Read();
             }
-            
+
 
             //post request
 
             /*
             string url = "http://www.mdirector.com/api_contact";
-            string consumerKey = "52216";
-            string secretKey = "Qdl0AVLxIk";
             string contentType = "application/x-www-form-urlencoded";
-
-           
             ServiceProvider ServiceProvider = new ServiceProvider(url, consumerKey, secretKey, "PLAINTEXT");
-
-
-            string data = "listId=1&name=Soa&surname=Gya&email=soa@gmail.com";
-
-
+            string data = "listId=1&name=Soa&surname=Gya&email=soa@gmail.com"; //replace listId and name and surname and email with proper data
             string result = ServiceProvider.PostData(contentType, data);
-
             var jo = Newtonsoft.Json.Linq.JObject.Parse(result);
 
             string resultado = jo["response"].ToString();
@@ -65,7 +54,6 @@ namespace ConsoleApplication2
                 Console.Out.WriteLine(result);
                 Console.Read();
             } else {
-
                 Console.Out.WriteLine("Failed Inserting new user");
                 Console.Out.WriteLine(result);
                 Console.Read();
@@ -73,21 +61,14 @@ namespace ConsoleApplication2
 
             */
 
-            //delete request
-            
+            //delete request (delete contact from subscribers)
+
             /*
             string url = "http://www.mdirector.com/api_contact";
-            string consumerKey = "52216";
-            string secretKey = "Qdl0AVLxIk";
             string contentType = "application/x-www-form-urlencoded";
-
-
             ServiceProvider ServiceProvider = new ServiceProvider(url, consumerKey, secretKey, "PLAINTEXT");
 
-
-            string data = "conId=1&email=sergiogayarre@gmail.com&unsubscribe=true&reason=baja";
-
-
+            string data = "conId=1&email=sergiogayarre@gmail.com&unsubscribe=true&reason=baja"; //replace conId and email with proper data from subscription list
             string responseDelete = ServiceProvider.DeleteData(contentType, data);
 
 
@@ -108,18 +89,14 @@ namespace ConsoleApplication2
 
             */
 
-              //update request
-            
+            //update request (update contact mdirector)
+
             /*
             string url = "http://www.mdirector.com/api_contact";
-            string consumerKey = "52216";
-            string secretKey = "Qdl0AVLxIk";
             string contentType = "application/x-www-form-urlencoded";
 
-
             ServiceProvider ServiceProvider = new ServiceProvider(url, consumerKey, secretKey, "PLAINTEXT");
-
-            string data = "listId=1&conId=10&email=soa@gmail.com&name=paquito";
+            string data = "listId=1&conId=10&email=soa@gmail.com&name=paquito";  //replace listId, conId and email with proper data from subscription list to update data, in this case we update the attribute name, we can pass surname etc...
             string responseUpdate = ServiceProvider.PutData(contentType, data);
 
             var joUpdate = Newtonsoft.Json.Linq.JObject.Parse(responseUpdate);
@@ -133,14 +110,8 @@ namespace ConsoleApplication2
                 Console.Out.WriteLine("Failed updating user");
                 Console.Out.WriteLine(responseUpdate);
                 Console.Read();
-            }
-            
+            }         
             */
-         
-
-           
-            
-
         }
     }
 }
